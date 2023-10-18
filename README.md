@@ -25,14 +25,14 @@ Here is an online multiplayer implementation of the game, where a match can be h
 2. Change Directory to the GUI Directory
 3. Execute command java -jar GUI.jar to start the Client with the Graphical Interface
 
-To play:
+##### To play:
 1. Insert the IP Address and the Port to connect to the game
 2. Set a new Game or join an already existing one
 3. Play the game
 4. Use the 'help' command to check how the different commands work while playing in CLI
 5. Note that the Faction of the Students must be written all together, or the game will ask again for you input while playing in CLI
 
-### Notes
+##### Notes
 
 Due to copyright reasons, the graphics of the game were gitignored, since they've been provided by Cranio Creations for exclusive use.
 Therefore **the GUI version of the game is not playable as it is**.
