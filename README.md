@@ -35,4 +35,4 @@ To play:
 ### Notes
 
 Due to copyright reasons, the graphics of the game were gitignored, since they've been provided by Cranio Creations for exclusive use.
-Therefore the GUI version of the game is not playable as it is.
+Therefore **the GUI version of the game is not playable as it is**.
