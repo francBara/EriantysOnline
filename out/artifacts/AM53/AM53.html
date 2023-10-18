@@ -1,0 +1,43 @@
+<html><head>
+  <SCRIPT src="http://java.com/js/dtjava.js"></SCRIPT>
+<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'AM53.jnlp'
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+        return false;
+    }
+</script>
+
+<script>
+    function javafxEmbedAM53_id() {
+        dtjava.embed(
+            {
+                id : 'AM53_id',
+                url : 'AM53.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '1280',
+                height : '720'
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+    }
+    <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedAM53_id);
+</script>
+
+</head><body>
+<h2>Test page for <b>AM53</b></h2>
+  <b>Webstart:</b> <a href='AM53.jnlp' onclick="return launchApplication('AM53.jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder'></div>
+</body></html>

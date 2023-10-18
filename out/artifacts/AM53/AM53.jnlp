@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="AM53.jnlp">
+  <information>
+    <title>Eriantys</title>
+    <vendor>Unknown</vendor>
+    <description>AM53</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="AM53.jar" size="61993841" download="eager" />
+  </resources>
+  <jfx:javafx-desc width="1280" height="720" main-class="it.polimi.ingsw.client.GUIMain" name="AM53" />
+  <update check="background"/>
+</jnlp>
