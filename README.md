@@ -1,4 +1,4 @@
-# Eriantys Game online multiplayer implementation
+# Eriantys Game Online Multiplayer Implementation
 
 [Eriantys](https://www.craniocreations.it/prodotto/eriantys) is a table game by Cranio Creations.
 Here is an online multiplayer implementation of the game, where a match can be hosted locally by a player for other players to join.
